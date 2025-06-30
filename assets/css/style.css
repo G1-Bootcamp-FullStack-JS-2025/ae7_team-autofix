@@ -2,3 +2,19 @@
     height: 180px;
     object-fit: cover;
 }
+
+legend {
+  float: initial;
+  width: initial;
+  padding: 0;
+  margin-bottom: initial;
+  line-height: inherit;
+  font-size: calc(1.275rem + .3vw);
+}
+
+fieldset {
+  padding: 10px 20px;
+  border: 2px groove threedface;
+  border-radius: 4px;
+  border-image: initial;
+}
