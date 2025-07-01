@@ -5,7 +5,8 @@
 
 -----------
 
-**ENTREGA:**
+**ENTREGA COMMITS Y PR REALIZADOS:**
+
 ![entrega][1]
 
 --------------
@@ -40,14 +41,14 @@ de manera que todo el equipo pueda colaborar de manera eficiente.
 
 ## 👉 REQUISITOS
 
-✅
+
 1. Crear una página web en HTML básica que contenga:
-   1. Un formulario donde los usuarios puedan ingresar la información de la reparación (nombre del cliente, tipo de reparación, descripción).
-   2. Una sección donde se muestren los servicios que ofrecen y sus precios.
-   3. Un sistema para programar citas para las reparaciones.
-   4. Un área para realizar el pago en línea.
-2. El equipo debe usar Git para gestionar el código fuente de su proyecto y realizar todas las tareas de desarrollo siguiendo las mejores prácticas en control de versiones. 
-3. Se debe crear un repositorio en GitHub donde se administren los cambios y se utilicen ramas para el desarrollo.
+   1. ✅ Un formulario donde los usuarios puedan ingresar la información de la reparación (nombre del cliente, tipo de reparación, descripción).
+   2. ✅ Una sección donde se muestren los servicios que ofrecen y sus precios.
+   3. ✅ Un sistema para programar citas para las reparaciones.
+   4. ✅ Un área para realizar el pago en línea.
+2. ✅ El equipo debe usar Git para gestionar el código fuente de su proyecto y realizar todas las tareas de desarrollo siguiendo las mejores prácticas en control de versiones. 
+3. ✅ Se debe crear un repositorio en GitHub donde se administren los cambios y se utilicen ramas para el desarrollo.
 
 ## 📁 ESTRUCTURA DEL PROYECTO
 
@@ -59,20 +60,27 @@ de manera que todo el equipo pueda colaborar de manera eficiente.
 └── 📁assets/  
     ├── 📁css/  
     │   └── style.css  
-    ├── 📁img/  
-    │   ├── poner-nombre-si-aplica.jpg
-    │   └── acá-tambien.webp
     ├── 📁js/  
     │   └── main.js
     └── 📁utils/  
         ├── mockup.png
         ├── entrega.png
+        ├── entrega-error.png
+        ├── resolve-pr.jpg
+        ├── github.svg
         └── logo.svg
 ```
 
 ## 👀 NOTAS
 
 - Se ha trabajado de la manera solicitada, con ramas independientes por desarrollador, y agregando tags y pull requests al repo.
+- Hemos encontrado algunos problemas de merge al realizar un **PR** que han resultado muy valiosos para aprender y practicar, se ha resuelto a través de la terminal por lo que no aparece como "_closed_" en el listado de **PRs**.
+
+![entrega-error][3]
+
+**RESUELVE PR EN TERMINAL:**
+
+![entrega-error][4]
 
 ## 📖 DOCUMENTACIÓN CONSULTADA
 
@@ -84,5 +92,7 @@ de manera que todo el equipo pueda colaborar de manera eficiente.
 
 <!-- Enlaces referenciados arriba -->
 [0]:./assets/utils/mockup.png
-[0]:./assets/utils/entrega.png
+[1]:./assets/utils/entrega.png
 [2]:https://g1-bootcamp-fullstack-js-2025.github.io/ae7_team-autofix/
+[3]:./assets/utils/entrega-error.png
+[4]:./assets/utils/resolve-pr.jpg

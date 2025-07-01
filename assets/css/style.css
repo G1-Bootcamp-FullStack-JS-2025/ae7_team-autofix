@@ -49,3 +49,31 @@ footer a:hover {
   color: #FFFEFCAA;
 }
 
+
+/* exclusivamente para la animación MADE WITH LOVE */
+footer .heart {
+  position: relative;
+}
+
+footer .heart:hover::after {
+  position: absolute;
+  left: 0;
+  content: "💞";
+  font-size: 1.5rem;
+  animation: flotar 2s ease-out forwards;
+  transform-origin: center;
+}
+
+@keyframes flotar {
+  0% {
+    transform: translateY(0) rotateY(0deg);
+    opacity: 1;
+    font-size: 1.5rem;
+  }
+  100% {
+    transform: translateY(-200px) rotateY(540deg);
+    opacity: 0;
+    font-size: 0.5rem;
+  }
+}
+
