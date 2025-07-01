@@ -108,7 +108,22 @@
           </div>
         </fieldset>
         <!-- Form pago -->
-
+        <fieldset class="container border py-4 px-5">
+          <h3 class="mb-3">Información de Pago (simulado)</h3>
+          <div class="mb-3">
+            <label for="numeroTarjeta" class="form-label">Número de tarjeta</label>
+            <input type="text" class="form-control" id="numeroTarjeta" placeholder="**** **** **** 1234" maxlength="19" name="numeroTarjeta" required>
+          </div>
+          <div class="mb-3">
+            <label for="nombreTitular" class="form-label">Nombre del titular</label>
+            <input type="text" class="form-control" id="nombreTitular" name="nombreTitular" required>
+          </div>
+          <div class="mb-3">
+            <label for="cvv" class="form-label">CVV</label>
+            <input type="text" class="form-control" id="cvv" name="cvv" required>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-success mt-3">Confirmar Solicitud</button>
       </form>
     </div>
 
