@@ -121,7 +121,8 @@
 
           <div class="mb-3">
             <label for="cvv" class="form-label">CVV</label>
-            <input type="text" class="form-control" id="cvv" name="cvv" required>
+            <input type="password" inputmode="numeric" pattern="\d{3}" class="form-control" id="cvv" name="cvv" minlength="3" maxlength="3" required> 
+<!--             <input type="text" class="form-control" id="cvv" name="cvv" required> -->
           </div>
         </fieldset>
 
