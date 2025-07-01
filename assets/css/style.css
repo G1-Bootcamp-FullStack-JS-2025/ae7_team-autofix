@@ -19,7 +19,19 @@ fieldset {
   border-image: initial;
 }
 
+/* Navbar */
+.navbar-custom {
+  background-color: #001715;
+}
 
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: #FFFEFC !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #FFFEFCAA !important;
+}
 
 
 /* Footer */
